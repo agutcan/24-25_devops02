@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true 
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/galeria:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/test:latest
 
 # https://github.com/docker/login-action
 # https://github.com/docker/build-push-action
